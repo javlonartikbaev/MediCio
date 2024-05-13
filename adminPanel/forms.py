@@ -9,7 +9,7 @@ class AppointmentFormAdmin(forms.ModelForm):
     class Meta:
         model = Appointment
         fields = ['first_name_p', 'last_name_p','date_start', 'date_end','status_id','date_of_birth', 'phone_number_p', 'doctor_id',
-                  'service_id']
+                  'service_id', 'pay_method', 'pay_status']
         widgets = {
 
             'doctor_id': forms.Select(attrs={'class': 'form-control'}),
@@ -21,7 +21,8 @@ class AppointmentFormAdmin(forms.ModelForm):
             'phone_number_p': forms.TextInput(attrs={'class': 'form-control'}),
             'date_start': forms.DateTimeInput(attrs={'type': 'datetime-local', 'class': 'form-control'}),
             'date_end': forms.DateTimeInput(attrs={'type': 'datetime-local', 'class': 'form-control'}),
-
+            'pay_method': forms.Select(attrs={'class': 'form-control'}),
+            'pay_status': forms.Select(attrs={'class': 'form-control'}),
             'status_id': forms.Select(attrs={'class': 'form-control'}),
         }
 

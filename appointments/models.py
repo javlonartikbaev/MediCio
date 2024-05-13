@@ -76,7 +76,10 @@ class StatusAppointment(models.Model):
         return self.status_name
 
 
+
 class Appointment(models.Model):
+    METHOD_PAY = [("терминал", "Терминал"), ("click", "Click"), ("наличными", "Наличными")]
+    STATUS_PAY = [("не оплачено", "Не оплачено"), ("оплачено", "Оплачено")]
     first_name_p = models.CharField(max_length=50, default='')
     last_name_p = models.CharField(max_length=50, default='')
     date_of_birth = models.DateField(blank=True)
@@ -87,6 +90,8 @@ class Appointment(models.Model):
     status_id = models.ForeignKey(StatusAppointment, on_delete=models.SET_NULL, default='', null=True)
     doctor_id = models.ForeignKey(Doctors, on_delete=models.SET_NULL, null=True)
 
+    pay_method = models.CharField(max_length=50, default='', null=True, choices=METHOD_PAY)
+    pay_status = models.CharField(max_length=50, default='не оплачено', null=True, choices=STATUS_PAY)
     service_id = models.ManyToManyField(SubService)
 
     class Meta:

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 {% load static %}
+
 <head>
 
     <meta charset="utf-8">
@@ -193,6 +194,8 @@
                                             <th>Время начала</th>
                                             <th>Время завершения</th>
                                             <th>Сервисы</th>
+                                            <th>Способ Оплаты</th>
+                                            <th>Статус Оплаты</th>
                                             <th>Доктор</th>
                                             <th>Медицинский полюс</th>
                                         </tr>
@@ -216,6 +219,8 @@
                                                     </ul>
 
                                                 </td>
+                                                <td>{{ appointments.pay_method }}</td>
+                                                <td>{{ appointments.pay_status }}</td>
                                                 <td>{{ appointments.doctor_id }}</td>
                                                 <td>{{ appointments.medical_insurance }}</td>
                                                 <td style=" display: flex; align-items: center; justify-content: center; width: 100px">
@@ -286,16 +291,15 @@
         <div class="page-wrapper">
             <div class="container-fluid">
                 <div class="row">
+                    <form action="{% url 'get_appointments_admin' %}" method="GET">
+                        {{ search.as_table }}
+                        <button type="submit">Найти</button>
+                    </form>
                     <h1>Ничего не найдено</h1>
                     <div class="col-12">
                         <div class="card">
                             <div class="card-body">
-                                <form action="#" method="GET">
-                                    <input type="text" name="query" placeholder="Поиск...">
-                                    <input type="date" name="start_date">
-                                    <input type="date" name="end_date">
-                                    <button type="submit">Найти</button>
-                                </form>
+
 
                                 <h5 class="card-title">Встречи</h5>
                                 <div class="table-responsive">

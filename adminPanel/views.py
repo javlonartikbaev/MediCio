@@ -36,14 +36,14 @@ def get_appointments_admin(request):
                 date_start__icontains=search_start_date
             )
 
-        data = {'search': search, 'found_patient': found_patient}
+        data = {'search': search, 'found_patient': found_patient, }
 
     else:
         appointments = Appointment.objects.order_by('date_start')
         paginator = Paginator(appointments, 4)
         page_number = request.GET.get('page')
         page_obj = paginator.get_page(page_number)
-        data = {"page_obj": page_obj}
+        data = {"page_obj": page_obj, }
     return render(request, 'adminPanel/appointments/index.html', data)
 
 
@@ -81,7 +81,6 @@ def add_appointments_admin(request):
             appointment.medical_insurance = randint(100000000, 1000000000)
             appointment.save()
             appointment.service_id.set(selected_services)
-
             return redirect("get_appointments_admin")
     else:
         form = AppointmentForm()
@@ -101,6 +100,14 @@ def printInfo(request, id_meet):
     time = datetime.today().strftime('%H:%M:%S')
     data = {"appointments": appointments, "date": date, 'time': time, 'total_price': total_price}
     return render(request, 'adminPanel/appointments/printInfo.html', data)
+
+@login_required()
+def update_payment_status(request, id_meet):
+    appointment = get_object_or_404(Appointment, pk=id_meet)
+
+    appointment.pay_status = 'оплачено'
+    appointment.save()
+    return redirect('get_appointments_admin')
 
 
 @login_required()

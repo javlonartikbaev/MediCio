@@ -46,6 +46,24 @@
             margin-top: 10px;
             text-align: right;
         }
+
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .pay-button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .pay-button:hover {
+            background-color: #0056b3;
+        }
     </style>
 </head>
 <body>
@@ -71,9 +89,15 @@
     </div>
 
     <div class="total">
-        <p>Общая сумма: {{total_price}}</p>
+        <p>{{ appointments.pay_method }}</p>
+        <p>Общая сумма: {{ total_price }}</p>
     </div>
-</div>
 
+
+</div>
+<form action="{% url 'update_payment_status' appointments.id %}" method="post">
+    {% csrf_token %}
+    <button class="pay-button" type="submit">Оплатить</button>
+</form>
 </body>
 </html>
