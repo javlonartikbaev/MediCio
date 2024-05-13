@@ -1,0 +1,28 @@
+{% extends 'appointments/index.html' %}
+
+
+
+{% block boxes %}
+    <!-- Section: boxes -->
+{% endblock %}
+
+{% block service %}
+    <!-- Section: services -->
+{% endblock %}
+
+{% block doctors %}
+    <!-- Section: team -->
+    <div class="doctor-info">
+        <div class="doctor-image" style="margin-left: 15px">
+            <img src="{{ doctor.img_doctor.url }}" alt="DoctorImg" class="doctor-photo">
+        </div>
+        <div class="doctor-details">
+            <h3 class="doctor-name" style="margin-left: 15px">{{ doctor.first_name_d }} {{ doctor.last_name_d }}</h3>
+            <div class="doctor-description">
+                <div style="width: 500px; height: 500px; font-size: large; color: black; margin-left: 15px"><p class="doctor-info">{{ doctor.info_d }}</p></div>
+            </div>
+        </div>
+    </div>
+
+
+{% endblock %}

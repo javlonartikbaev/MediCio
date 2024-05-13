@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="189b58c6-a342-4326-a749-2bfbdc43c635" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/MediCio.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MediCio/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MediCio/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MediCio/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MediCio/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MediCio/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adminPanel/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adminPanel/templates/adminPanel/appointments/printInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adminPanel/templates/adminPanel/doctors/addDoctors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adminPanel/templates/adminPanel/doctors/deleteDoctors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adminPanel/templates/adminPanel/doctors/doctors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adminPanel/templates/adminPanel/doctors/updateDoctors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adminPanel/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appointments/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appointments/templates/appointments/appointmentForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appointments/templates/appointments/doctorInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appointments/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2flxo6V0S4IHIgLlwq1LEsQPxzP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.MediCio.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\DjangoProjects\MediCio\adminPanel\templates\adminPanel\appointments" />
+      <recent name="D:\Documents\DjangoProjects\MediCio\adminPanel\templates\adminPanel\doctors" />
+      <recent name="D:\Documents\DjangoProjects\MediCio\adminPanel\templates\adminPanel" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MediCio" type="Python.DjangoServer" factoryName="Django server">
+      <module name="MediCio" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="MediCio.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.241" />
+        <option value="bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="189b58c6-a342-4326-a749-2bfbdc43c635" name="Changes" comment="" />
+      <created>1714389638876</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714389638876</updated>
+      <workItem from="1714389651340" duration="11324000" />
+      <workItem from="1714453785427" duration="3930000" />
+      <workItem from="1714475422238" duration="30000" />
+      <workItem from="1714475777289" duration="2571000" />
+      <workItem from="1714480363902" duration="102000" />
+      <workItem from="1714487203823" duration="596000" />
+      <workItem from="1714535499222" duration="2566000" />
+      <workItem from="1714556763172" duration="1982000" />
+      <workItem from="1714564082289" duration="3923000" />
+      <workItem from="1714620541565" duration="12000" />
+      <workItem from="1714648836891" duration="246000" />
+      <workItem from="1714649189539" duration="2452000" />
+      <workItem from="1714651845203" duration="1260000" />
+      <workItem from="1714659527550" duration="2774000" />
+      <workItem from="1714707819708" duration="519000" />
+      <workItem from="1714708346951" duration="14000" />
+      <workItem from="1714710462159" duration="4135000" />
+      <workItem from="1714728133066" duration="10788000" />
+      <workItem from="1714801416400" duration="1543000" />
+      <workItem from="1714820708248" duration="3146000" />
+      <workItem from="1714883306200" duration="465000" />
+      <workItem from="1714966657885" duration="2257000" />
+      <workItem from="1715080031691" duration="4889000" />
+      <workItem from="1715139142765" duration="2302000" />
+      <workItem from="1715141542790" duration="1542000" />
+      <workItem from="1715255160792" duration="7482000" />
+      <workItem from="1715311872736" duration="1009000" />
+      <workItem from="1715314221444" duration="5991000" />
+      <workItem from="1715348843803" duration="14842000" />
+      <workItem from="1715425718318" duration="3197000" />
+      <workItem from="1715429012459" duration="1657000" />
+      <workItem from="1715443213751" duration="5479000" />
+      <workItem from="1715570995506" duration="4515000" />
+      <workItem from="1715576559822" duration="2238000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
