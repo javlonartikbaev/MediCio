@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="189b58c6-a342-4326-a749-2bfbdc43c635" name="Changes" comment="MediCio finished">
+    <list default="true" id="189b58c6-a342-4326-a749-2bfbdc43c635" name="Changes" comment="pay method and pay status added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adminPanel/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/adminPanel/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminPanel/templates/adminPanel/appointments/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/adminPanel/templates/adminPanel/appointments/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminPanel/templates/adminPanel/appointments/printInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/adminPanel/templates/adminPanel/appointments/printInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminPanel/templates/adminPanel/appointments/updateMeet.html" beforeDir="false" afterPath="$PROJECT_DIR$/adminPanel/templates/adminPanel/appointments/updateMeet.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminPanel/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/adminPanel/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adminPanel/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/adminPanel/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appointments/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/appointments/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,12 +59,13 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Internet Downloads/who-wants-be-a-millioner-main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -161,6 +157,12 @@
       <workItem from="1715592320849" duration="558000" />
       <workItem from="1715592926719" duration="6942000" />
       <workItem from="1715617833278" duration="1402000" />
+      <workItem from="1715621742590" duration="648000" />
+      <workItem from="1715663094584" duration="59000" />
+      <workItem from="1715663246947" duration="109000" />
+      <workItem from="1715664263128" duration="614000" />
+      <workItem from="1715670278673" duration="396000" />
+      <workItem from="1715684618888" duration="2337000" />
     </task>
     <task id="LOCAL-00001" summary="MediCio finished">
       <option name="closed" value="true" />
@@ -178,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715592741357</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="pay method and pay status added">
+      <option name="closed" value="true" />
+      <created>1715621788895</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715621788895</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +196,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="MediCio finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="MediCio finished" />
+    <MESSAGE value="pay method and pay status added" />
+    <option name="LAST_COMMIT_MESSAGE" value="pay method and pay status added" />
   </component>
 </project>

@@ -5,6 +5,7 @@ from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
 from django.core.paginator import Paginator
+from django.db.models import Q
 from django.shortcuts import get_object_or_404
 from django.shortcuts import render, redirect
 
@@ -22,9 +23,8 @@ def get_appointments_admin(request):
         search_medical_insurance = search.cleaned_data.get("medical_insurance")
         search_start_date = search.cleaned_data.get("start_date")
         search_end_date = search.cleaned_data.get("end_date")
-
         if search_patient_name:
-            found_patient = found_patient.filter(first_name_p__icontains=search_patient_name)
+            found_patient = found_patient.filter(Q(first_name_p__icontains=search_patient_name) | Q(last_name_p__icontains=search_patient_name))
         if search_medical_insurance:
             found_patient = found_patient.filter(medical_insurance__icontains=search_medical_insurance)
         if search_start_date and search_end_date:
@@ -281,8 +281,6 @@ def add_subservice_admin(request):
     return render(request, 'adminPanel/subservices/subserviceAdd.html', {"form": form})
 
 
-def log_out_form(request):
-    return render(request, 'adminPanel/appointments/logIn.html', data)
 
 
 def logout_view(request):

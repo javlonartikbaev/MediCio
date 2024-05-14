@@ -55,7 +55,7 @@ class SubserviceForm(forms.ModelForm):
 class ExtendedSearchForm(forms.Form):
     patient_name = forms.CharField(
         max_length=100,
-        label="Название книги",
+        label="Имя пациента",
         required=False,
         widget=forms.TextInput(
             attrs={"placeholder": "Введите имя пациента...", "class": "patient_name", 'name': "search_patient_name"}
