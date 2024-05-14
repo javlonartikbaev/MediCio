@@ -12,11 +12,13 @@ from django.shortcuts import render, redirect
 from appointments.forms import AppointmentForm
 # Create your views here.
 from .forms import *
-
+import xlwt
+from excel_response import ExcelResponse
 
 @login_required()
 def get_appointments_admin(request):
     search = ExtendedSearchForm(request.GET)
+    global found_patient
     found_patient = Appointment.objects.order_by('date_start')
     if search.is_valid():
         search_patient_name = search.cleaned_data.get("patient_name")
@@ -307,3 +309,26 @@ def login_page(request):
             return redirect('get_appointments_admin')
 
     return render(request, 'adminPanel/appointments/logIn.html')
+
+
+def export_excel(request):
+    total_price = 0
+    data = [
+        ['Имя', 'Фамилия', 'Телефон Номер', 'Дата начала', 'Дата завершения', 'Имя Доктора', 'Общая сумма']
+    ]
+    for obj in found_patient:
+        for service in obj.service_id.all():
+            total_price += int(service.price)
+        doctor_name = obj.doctor_id.first_name_d if obj.doctor_id else ""
+        row = [
+            obj.first_name_p,
+            obj.last_name_p,
+            obj.phone_number_p,
+            obj.date_start,
+            obj.date_end,
+            doctor_name,
+            total_price
+
+        ]
+        data.append(row)
+    return ExcelResponse(data, 'ExporteData')

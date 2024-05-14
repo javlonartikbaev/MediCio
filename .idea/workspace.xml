@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="189b58c6-a342-4326-a749-2bfbdc43c635" name="Changes" comment="pay method and pay status added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminPanel/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/adminPanel/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminPanel/templates/adminPanel/appointments/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/adminPanel/templates/adminPanel/appointments/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminPanel/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/adminPanel/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adminPanel/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/adminPanel/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -162,7 +163,8 @@
       <workItem from="1715663246947" duration="109000" />
       <workItem from="1715664263128" duration="614000" />
       <workItem from="1715670278673" duration="396000" />
-      <workItem from="1715684618888" duration="2337000" />
+      <workItem from="1715684618888" duration="3155000" />
+      <workItem from="1715698959981" duration="788000" />
     </task>
     <task id="LOCAL-00001" summary="MediCio finished">
       <option name="closed" value="true" />
@@ -188,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715621788895</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="pay method and pay status added">
+      <option name="closed" value="true" />
+      <created>1715687648576</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715687648576</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

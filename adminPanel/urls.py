@@ -9,7 +9,7 @@ urlpatterns = [
     path('add_meet/', adminPanelViews.add_appointments_admin, name='add_meet'),
     path('check/<int:id_meet>', adminPanelViews.printInfo, name='check'),
     path('update_payment_status/<int:id_meet>/', adminPanelViews.update_payment_status, name='update_payment_status'),
-
+    path('export_data/', adminPanelViews.export_excel, name='export_data'),
     path('logout/', adminPanelViews.logout_view, name='logOut'),
     path('login/', adminPanelViews.login_page, name='login_page'),
 
