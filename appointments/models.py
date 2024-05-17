@@ -99,6 +99,9 @@ class Appointment(models.Model):
         verbose_name_plural = "Встречи"
         db_table = 'appointment'
 
+    def __str__(self):
+        return self.doctor_id.first_name_d
+
 
 
 

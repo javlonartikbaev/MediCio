@@ -5,7 +5,7 @@ from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
 from django.core.paginator import Paginator
-from django.db.models import Q
+from django.db.models import Q, Count
 from django.shortcuts import get_object_or_404
 from django.shortcuts import render, redirect
 
@@ -332,3 +332,13 @@ def export_excel(request):
         ]
         data.append(row)
     return ExcelResponse(data, 'ExporteData')
+
+def doctor_appointment_counts(request):
+    doctor_meetings = Appointment.objects.values('doctor_id').annotate(meeting_count=Count('id'))
+
+    data = {
+        'doctor_meetings': doctor_meetings
+    }
+
+    return render(request, 'adminPanel/diagram/diagram.html', data)
+

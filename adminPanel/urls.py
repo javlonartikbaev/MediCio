@@ -33,4 +33,6 @@ urlpatterns = [
     path('delete_subservice/<slug:subservice_slug>', adminPanelViews.delete_subservice_admin, name='delete_subservice'),
     path('update_subservice/<slug:subservice_slug>', adminPanelViews.update_subservice_admin, name='update_subservice'),
 
+    path('diagram/', adminPanelViews.doctor_appointment_counts, name='doctor_appointment_counts'),
+
 ]
