@@ -6,26 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="189b58c6-a342-4326-a749-2bfbdc43c635" name="Changes" comment="requirements.txt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminPanel/templates/adminPanel/appointments/addMeet.html" beforeDir="false" afterPath="$PROJECT_DIR$/adminPanel/templates/adminPanel/appointments/addMeet.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminPanel/templates/adminPanel/appointments/deleteMeet.html" beforeDir="false" afterPath="$PROJECT_DIR$/adminPanel/templates/adminPanel/appointments/deleteMeet.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminPanel/templates/adminPanel/appointments/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/adminPanel/templates/adminPanel/appointments/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminPanel/templates/adminPanel/appointments/logIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/adminPanel/templates/adminPanel/appointments/logIn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminPanel/templates/adminPanel/appointments/updateMeet.html" beforeDir="false" afterPath="$PROJECT_DIR$/adminPanel/templates/adminPanel/appointments/updateMeet.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminPanel/templates/adminPanel/doctors/addDoctors.html" beforeDir="false" afterPath="$PROJECT_DIR$/adminPanel/templates/adminPanel/doctors/addDoctors.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminPanel/templates/adminPanel/doctors/deleteDoctors.html" beforeDir="false" afterPath="$PROJECT_DIR$/adminPanel/templates/adminPanel/doctors/deleteDoctors.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminPanel/templates/adminPanel/doctors/doctors.html" beforeDir="false" afterPath="$PROJECT_DIR$/adminPanel/templates/adminPanel/doctors/doctors.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminPanel/templates/adminPanel/doctors/updateDoctors.html" beforeDir="false" afterPath="$PROJECT_DIR$/adminPanel/templates/adminPanel/doctors/updateDoctors.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminPanel/templates/adminPanel/medical_services/medService.html" beforeDir="false" afterPath="$PROJECT_DIR$/adminPanel/templates/adminPanel/medical_services/medService.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminPanel/templates/adminPanel/medical_services/medServiceAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/adminPanel/templates/adminPanel/medical_services/medServiceAdd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminPanel/templates/adminPanel/medical_services/medServiceDelete.html" beforeDir="false" afterPath="$PROJECT_DIR$/adminPanel/templates/adminPanel/medical_services/medServiceDelete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminPanel/templates/adminPanel/medical_services/medServiceUpdate.html" beforeDir="false" afterPath="$PROJECT_DIR$/adminPanel/templates/adminPanel/medical_services/medServiceUpdate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminPanel/templates/adminPanel/status/status.html" beforeDir="false" afterPath="$PROJECT_DIR$/adminPanel/templates/adminPanel/status/status.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminPanel/templates/adminPanel/status/statusAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/adminPanel/templates/adminPanel/status/statusAdd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminPanel/templates/adminPanel/status/statusDelete.html" beforeDir="false" afterPath="$PROJECT_DIR$/adminPanel/templates/adminPanel/status/statusDelete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminPanel/templates/adminPanel/subservices/deleteSubservice.html" beforeDir="false" afterPath="$PROJECT_DIR$/adminPanel/templates/adminPanel/subservices/deleteSubservice.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminPanel/templates/adminPanel/subservices/subservice.html" beforeDir="false" afterPath="$PROJECT_DIR$/adminPanel/templates/adminPanel/subservices/subservice.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adminPanel/templates/adminPanel/subservices/subserviceAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/adminPanel/templates/adminPanel/subservices/subserviceAdd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appointments/templates/appointments/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/appointments/templates/appointments/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vercel.json" beforeDir="false" afterPath="$PROJECT_DIR$/vercel.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +174,7 @@
       <workItem from="1716956453469" duration="23000" />
       <workItem from="1717082052801" duration="2945000" />
       <workItem from="1717126317439" duration="2909000" />
-      <workItem from="1717183057905" duration="1765000" />
+      <workItem from="1717183057905" duration="2465000" />
     </task>
     <task id="LOCAL-00001" summary="MediCio finished">
       <option name="closed" value="true" />
@@ -315,7 +296,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717130410085</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="requirements.txt">
+      <option name="closed" value="true" />
+      <created>1717185200437</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1717185200437</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
